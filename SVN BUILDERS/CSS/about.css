@@ -1,0 +1,766 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+     
+}
+
+body{
+    overflow-x: hidden;
+}
+:root{
+    --color: #001e57;
+    --black:black;
+    --White:white;
+    --orange:#df6512;
+
+}
+
+
+.header{
+    width:100%;
+    height:50vh;
+    position: relative;
+}
+.header img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+
+.contact-topic{
+    position: absolute;
+    top:45%;
+    left:42%;
+}
+.contact-topic h1{
+    color:white;
+    font: weight 500;
+}
+
+ .over-colour{
+    width:100%;
+    position: absolute;
+    height:50vh !important;
+    top:0%;
+    left: 0;
+    background-color:rgb(8, 8, 8);
+    opacity:50%;
+    
+} 
+
+.mission{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:100%;
+    height:auto;
+    margin-top:80px;
+   
+}
+.mission-1{
+    width:30%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    padding:2%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.mission-1 i{
+    margin-bottom:20px;
+    font-size:30px;
+    border:0.1px solid var(--color);
+    border-radius:50%;
+    width:80px;
+    height:80px;
+    text-align: center;
+   font-size:40px;
+   padding:5%;
+   color: white;
+   background-color: var(--color);
+   
+
+}
+.mission-1 h5{
+    color:var(--black);
+    font-weight: bold;
+}
+.mission-1:hover{
+  background-color:var(--color);
+  transition:0.5s;
+
+}
+.mission-1:hover h5{
+    color:var(--orange);
+}
+.mission-1:hover p{
+    color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:320px){
+
+
+
+    .header{
+        width:100%;
+        height:50vh;
+        position: relative;
+    }
+    .header img{
+        width:100%;
+        height:100%;
+        object-fit: cover;
+    }
+    
+    .contact-topic{
+        position: absolute;
+        top:40%;
+        left:26%;
+    }
+    .contact-topic h1{
+        color:white;
+        font: weight 500;
+    }
+    
+     .over-colour{
+        width:100%;
+        position: absolute;
+        height:50vh !important;
+        top:0%;
+        left: 0;
+        background-color:rgb(8, 8, 8);
+        opacity:50%;
+        
+    } 
+    .mission{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width:100%;
+        height:auto;
+        margin-top:80px;
+       
+    }
+    .mission-1{
+        width:100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+        padding:2%;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+        margin-bottom:20px;
+    }
+    .mission-1 i{
+        margin-bottom:20px;
+        font-size:30px;
+        border:0.1px solid var(--color);
+        border-radius:50%;
+        width:80px;
+        height:80px;
+        text-align: center;
+       font-size:40px;
+       padding:5%;
+       color: white;
+       background-color: var(--color);
+       
+    
+    }
+    .mission-1 h5{
+        color:var(--black);
+        font-weight: bold;
+    }
+    .mission-1:hover{
+      background-color:var(--color);
+      transition:0.5s;
+    
+    }
+    .mission-1:hover h5{
+        color:var(--orange);
+    }
+    .mission-1:hover p{
+        color:white;
+    }
+    
+    
+
+
+
+}
+
+@media screen and (min-width:321px) and (max-width:375px){
+
+    
+
+    .header{
+        width:100%;
+        height:50vh;
+        position: relative;
+    }
+    .header img{
+        width:100%;
+        height:100%;
+        object-fit: cover;
+    }
+    
+    .contact-topic{
+        position: absolute;
+        top:40%;
+        left:30%;
+    }
+    .contact-topic h1{
+        color:white;
+        font: weight 500;
+    }
+    
+     .over-colour{
+        width:100%;
+        position: absolute;
+        height:50vh !important;
+        top:0%;
+        left: 0;
+        background-color:rgb(8, 8, 8);
+        opacity:50%;
+        
+    } 
+
+    .mission{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width:100%;
+        height:auto;
+        margin-top:80px;
+       
+    }
+    .mission-1{
+        width:100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+        padding:2%;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+        margin-bottom:20px;
+    }
+    .mission-1 i{
+        margin-bottom:20px;
+        font-size:30px;
+        border:0.1px solid var(--color);
+        border-radius:50%;
+        width:80px;
+        height:80px;
+        text-align: center;
+       font-size:40px;
+       padding:5%;
+       color: white;
+       background-color: var(--color);
+       
+    
+    }
+    .mission-1 h5{
+        color:var(--black);
+        font-weight: bold;
+    }
+    .mission-1:hover{
+      background-color:var(--color);
+      transition:0.5s;
+    
+    }
+    .mission-1:hover h5{
+        color:var(--orange);
+    }
+    .mission-1:hover p{
+        color:white;
+    }
+    
+    
+
+
+
+
+
+}
+
+@media screen and (min-width:375px) and (max-width:425px){
+
+   
+    
+
+    .header{
+        width:100%;
+        height:50vh !important;
+        position: relative;
+    }
+    .header img{
+        width:100%;
+        height:100%;
+        object-fit: cover;
+    }
+    
+    .contact-topic{
+        position: absolute;
+        top:40%;
+        left:32%;
+    }
+    .contact-topic h1{
+        color:white;
+        font-weight:500;
+    }
+    
+     .over-colour{
+        width:100%;
+        position: absolute;
+        height:50vh !important;
+        top:0%;
+        left: 0;
+        background-color:rgb(8, 8, 8);
+        opacity:50%;
+        
+    } 
+
+    .mission{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width:100%;
+        height:auto;
+        margin-top:80px;
+       
+    }
+    .mission-1{
+        width:100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+        padding:2%;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+        margin-bottom:20px;
+    }
+    .mission-1 i{
+        margin-bottom:20px;
+        font-size:30px;
+        border:0.1px solid var(--color);
+        border-radius:50%;
+        width:80px;
+        height:80px;
+        text-align: center;
+       font-size:40px;
+       padding:5%;
+       color: white;
+       background-color: var(--color);
+       
+    
+    }
+    .mission-1 h5{
+        color:var(--black);
+        font-weight: bold;
+    }
+    .mission-1:hover{
+      background-color:var(--color);
+      transition:0.5s;
+    
+    }
+    .mission-1:hover h5{
+        color:var(--orange);
+    }
+    .mission-1:hover p{
+        color:white;
+    }
+    
+    
+
+
+
+
+}
+
+@media screen and (min-width:426px) and (max-width:600px){
+
+    
+    .header{
+        width:100%;
+        height:50vh;
+        position: relative;
+    }
+    .header img{
+        width:100%;
+        height:100%;
+        object-fit: cover;
+    }
+    
+    .contact-topic{
+        position: absolute;
+        top:40%;
+        left:40%;
+    }
+    .contact-topic h1{
+        color:white;
+        font-weight:500;
+    }
+    
+     .over-colour{
+        width:100%;
+        position: absolute;
+        height:50vh !important;
+        top:0%;
+        left: 0;
+        background-color:rgb(8, 8, 8);
+        opacity:50%;
+        
+    } 
+
+
+    .mission{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width:100%;
+        height:auto;
+        margin-top:80px;
+       
+    }
+    .mission-1{
+        width:100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+        padding:2%;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+        margin-bottom:20px;
+    }
+    .mission-1 i{
+        margin-bottom:20px;
+        font-size:30px;
+        border:0.1px solid var(--color);
+        border-radius:50%;
+        width:80px;
+        height:80px;
+        text-align: center;
+       font-size:40px;
+       padding:5%;
+       color: white;
+       background-color: var(--color);
+       
+    
+    }
+    .mission-1 h5{
+        color:var(--black);
+        font-weight: bold;
+    }
+    .mission-1:hover{
+      background-color:var(--color);
+      transition:0.5s;
+    
+    }
+    .mission-1:hover h5{
+        color:var(--orange);
+    }
+    .mission-1:hover p{
+        color:white;
+    }
+    
+    
+
+
+
+}
+
+@media screen and (min-width:601px) and (max-width:768px){
+
+   
+    .header{
+        width:100%;
+        height:50vh;
+        position: relative;
+    }
+    .header img{
+        width:100%;
+        height:100%;
+        object-fit: cover;
+    }
+    
+    .contact-topic{
+        position: absolute;
+        top:35%;
+        left:40%;
+    }
+    .contact-topic h1{
+        color:white;
+        font-weight:500;
+    }
+    
+     .over-colour{
+        width:100%;
+        position: absolute;
+        height:50vh !important;
+        top:0%;
+        left: 0;
+        background-color:rgb(8, 8, 8);
+        opacity:50%;
+        
+    } 
+
+
+    .mission{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width:100%;
+        height:auto;
+        margin-top:80px;
+       
+    }
+    .mission-1{
+        width:100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+        padding:2%;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+        margin-bottom:20px;
+    }
+    .mission-1 i{
+        margin-bottom:20px;
+        font-size:30px;
+        border:0.1px solid var(--color);
+        border-radius:50%;
+        width:80px;
+        height:80px;
+        text-align: center;
+       font-size:40px;
+       padding:5%;
+       color: white;
+       background-color: var(--color);
+       
+    
+    }
+    .mission-1 h5{
+        color:var(--black);
+        font-weight: bold;
+    }
+    .mission-1:hover{
+      background-color:var(--color);
+      transition:0.5s;
+    
+    }
+    .mission-1:hover h5{
+        color:var(--orange);
+    }
+    .mission-1:hover p{
+        color:white;
+    }
+    
+    
+
+
+}
+
+@media screen and (min-width:769px) and (max-width:900px){
+
+   
+    .header{
+        width:100%;
+        height:50vh;
+        position: relative;
+    }
+    .header img{
+        width:100%;
+        height:100%;
+        object-fit: cover;
+    }
+    
+    .contact-topic{
+        position: absolute;
+        top:30%;
+        left:40%;
+    }
+    .contact-topic h1{
+        color:white;
+        font-weight:500;
+    }
+    
+     .over-colour{
+        width:100%;
+        position: absolute;
+        height:50vh !important;
+        top:0%;
+        left: 0;
+        background-color:rgb(8, 8, 8);
+        opacity:50%;
+        
+    } 
+
+
+    .mission{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width:100%;
+        height:auto;
+        margin-top:80px;
+       
+    }
+    .mission-1{
+        width:100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+        padding:2%;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+        margin-bottom:20px;
+    }
+    .mission-1 i{
+        margin-bottom:20px;
+        font-size:30px;
+        border:0.1px solid var(--color);
+        border-radius:50%;
+        width:80px;
+        height:80px;
+        text-align: center;
+       font-size:40px;
+       padding:5%;
+       color: white;
+       background-color: var(--color);
+       
+    
+    }
+    .mission-1 h5{
+        color:var(--black);
+        font-weight: bold;
+    }
+    .mission-1:hover{
+      background-color:var(--color);
+      transition:0.5s;
+    
+    }
+    .mission-1:hover h5{
+        color:var(--orange);
+    }
+    .mission-1:hover p{
+        color:white;
+    }
+    
+    
+
+}
+
+@media screen and (min-width:901px) and (max-width:992px){
+
+  
+    .header{
+        width:100%;
+        height:50vh;
+        position: relative;
+    }
+    .header img{
+        width:100%;
+        height:100%;
+        object-fit: cover;
+    }
+    
+    .contact-topic{
+        position: absolute;
+        top:40%;
+        left:40%;
+    }
+    .contact-topic h1{
+        color:white;
+        font-weight:500;
+    }
+    
+     .over-colour{
+        width:100%;
+        position: absolute;
+        height:50vh !important;
+        top:0%;
+        left: 0;
+        background-color:rgb(8, 8, 8);
+        opacity:50%;
+        
+    } 
+
+
+    .mission{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width:100%;
+        height:auto;
+        margin-top:80px;
+       
+    }
+    .mission-1{
+        width:100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+        padding:2%;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+        margin-bottom:20px;
+    }
+    .mission-1 i{
+        margin-bottom:20px;
+        font-size:30px;
+        border:0.1px solid var(--color);
+        border-radius:50%;
+        width:80px;
+        height:80px;
+        text-align: center;
+       font-size:40px;
+       padding:5%;
+       color: white;
+       background-color: var(--color);
+       
+    
+    }
+    .mission-1 h5{
+        color:var(--black);
+        font-weight: bold;
+    }
+    .mission-1:hover{
+      background-color:var(--color);
+      transition:0.5s;
+    
+    }
+    .mission-1:hover h5{
+        color:var(--orange);
+    }
+    .mission-1:hover p{
+        color:white;
+    }
+    
+    
+
+
+
+}
